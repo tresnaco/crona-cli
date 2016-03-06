@@ -1,0 +1,27 @@
+{
+  "name": "crona-cli",
+  "version": "0.5.0",
+  "description": "Sync data in realtime with crona.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "crona": "./app.js"
+  },
+  "author": "tresna",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.3.3",
+    "co": "^4.6.0",
+    "commander": "^2.9.0",
+    "fs-extra": "^0.26.5",
+    "homedir": "^0.6.0",
+    "is": "^3.1.0",
+    "promptly": "^1.0.0",
+    "request": "^2.69.0",
+    "table": "^3.7.8",
+    "tough-cookie": "^2.2.1",
+    "tough-cookie-filestore": "0.0.1"
+  }
+}
